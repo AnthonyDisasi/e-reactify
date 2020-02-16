@@ -48,7 +48,7 @@ export default function Signup() {
                   <div className="row">
                     <div className="center-align">
                       <NavLink
-                        to="/admin"
+                        to="/admin/curriculmn"
                         className="waves-effect btn btnColor borderRadius"
                       >
                         Login

@@ -60,6 +60,42 @@ class Header extends Component {
                         Sign up
                       </NavLink>
                     </li>
+                    <li>
+                      <NavLink
+                        exact
+                        className="grey-text text-darken-3"
+                        to="/admin/curriculmn"
+                      >
+                        <i className="material-icons yellow-text text-darken-3">
+                          person_add
+                        </i>
+                        Curriculmn
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        exact
+                        className="grey-text text-darken-3"
+                        to="/admin/addteacher"
+                      >
+                        <i className="material-icons yellow-text text-darken-3">
+                          person_add
+                        </i>
+                        Add Teacher
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        exact
+                        className="grey-text text-darken-3"
+                        to="/admin/subscription"
+                      >
+                        <i className="material-icons yellow-text text-darken-3">
+                          person_add
+                        </i>
+                        Subscription
+                      </NavLink>
+                    </li>
                   </ul>
                 </li>
               </ul>
