@@ -14,9 +14,24 @@
 .materialize-indigo {
   background-color: #3a53af !important;
 }
+#info-svg-signup {
+  margin-top: 100px;
+}
 
 .contents {
   margin-top: 80px;
+}
+
+.btnColor {
+  background-color: #1a73e9;
+}
+
+.btn:hover {
+  background-color: #1a73e9;
+}
+
+.borderRadius {
+  border-radius: 5px;
 }
 
 img {
@@ -90,6 +105,12 @@ h6 {
 @media only screen and (max-width: 600px) {
   #load {
     margin-top: 55px;
+  }
+  #info-svg-signup {
+    display: none;
+  }
+  #info-svg-signin {
+    display: none;
   }
 }
 

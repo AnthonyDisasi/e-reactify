@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/style.css";
-import signupgsvg from "../img/signup.svg";
+import { NavLink } from "react-router-dom";
+import signin from "../img/signin.svg";
 
 export default function Signup() {
   return (
@@ -18,14 +19,13 @@ export default function Signup() {
                     id="info-svg-signin"
                     width="300"
                     className="responsive-img"
-                    src={signupgsvg}
+                    src={signin}
                   />
                 </div>
-                <div className="col s6 l6" id="info-input-field">
+                <div className="col s12 l6" id="info-input-field">
                   <div className="row">
                     <div className="input-field col s12 l12">
                       <input
-                        placeholder="161-35-0000"
                         id="last_name"
                         type="text"
                         className="validate"
@@ -37,7 +37,6 @@ export default function Signup() {
                   <div className="row">
                     <div className="input-field col s12 l12">
                       <input
-                        placeholder="At least 6 digit"
                         id="password"
                         type="password"
                         className="validate"
@@ -50,14 +49,17 @@ export default function Signup() {
                     <div className="center-align">
                       <a
                         href="index.html"
-                        className="waves-effect waves-light btn purple darken-4"
+                        className="waves-effect btn btnColor borderRadius"
                       >
                         Login
                       </a>
                       <br />
                       <br />
                       <span className="clink">
-                        New here?&nbsp; <a href="signup.html">SignUp</a>
+                        New here?&nbsp;{" "}
+                        <NavLink exact to="/signup">
+                          SignUp
+                        </NavLink>
                       </span>
                     </div>
                   </div>

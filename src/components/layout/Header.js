@@ -72,14 +72,10 @@ class Header extends Component {
               </a>
             </li>
             <li>
-              <a target="_blank" href="login.html">
-                Login
-              </a>
+              <NavLink to="/signin">Signin</NavLink>
             </li>
             <li>
-              <a target="_blank" className="title" href="registration.html">
-                Registration
-              </a>
+              <NavLink to="/signup">Signup</NavLink>
             </li>
           </ul>
         </header>

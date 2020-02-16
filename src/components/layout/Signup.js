@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "../css/style.css";
+import signupsvg from "../img/signup.svg";
+import { NavLink } from "react-router-dom";
 
 class Signin extends Component {
   render() {
@@ -19,49 +21,33 @@ class Signin extends Component {
                       id="info-svg-signup"
                       width="500"
                       class="responsive-img"
-                      src="assets/img/undraw_personal_information_962o.svg"
+                      src={signupsvg}
                     />
                     <br />
                     <br />
                   </div>
-                  <div class="col s6 l6" id="info-input-field">
+                  <div class="col s12 l6" id="info-input-field">
                     <div class="row">
                       <div class="input-field col s12 l12">
-                        <input
-                          placeholder="161-35-0000"
-                          id="last_name"
-                          type="text"
-                          class="validate"
-                        />
+                        <input id="last_name" type="text" class="validate" />
                         <label for="last_name">ID</label>
                       </div>
                     </div>
                     <div class="row">
                       <div class="input-field col s12 l12">
-                        <input
-                          placeholder="example00-0000@diu.edu.bd"
-                          id="email"
-                          type="email"
-                          class="validate"
-                        />
+                        <input id="email" type="email" class="validate" />
                         <label for="email">Email</label>
                       </div>
                     </div>
                     <div class="row">
                       <div class="input-field col s12 l12">
-                        <input
-                          placeholder="At least 6 digit"
-                          id="password"
-                          type="password"
-                          class="validate"
-                        />
+                        <input id="password" type="password" class="validate" />
                         <label for="password">Password</label>
                       </div>
                     </div>
                     <div class="row">
                       <div class="input-field col s12 l12">
                         <input
-                          placeholder="At least 6 digit"
                           id="cpassword"
                           type="password"
                           class="validate"
@@ -73,7 +59,7 @@ class Signin extends Component {
                       <div class="center-align">
                         <a
                           href="signin.html"
-                          class="waves-effect waves-light btn purple darken-4"
+                          class="waves-effect btn btnColor borderRadius"
                         >
                           Register
                         </a>
@@ -81,7 +67,9 @@ class Signin extends Component {
                         <br />
                         <span class="clink">
                           Already have an account?&nbsp;{" "}
-                          <a href="signin.html">SignIn</a>
+                          <NavLink exact to="/signin">
+                            SignIn
+                          </NavLink>
                         </span>
                         <br />
                       </div>
