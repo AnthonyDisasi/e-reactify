@@ -10,7 +10,6 @@ class Signin extends Component {
         <form action="">
           <div class="container">
             <div class="row">
-              <br />
               <div class="center-align">
                 <h4 class="orange-text text-darken-3">Sign Up</h4>
               </div>

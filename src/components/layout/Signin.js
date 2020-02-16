@@ -47,12 +47,12 @@ export default function Signup() {
                   </div>
                   <div className="row">
                     <div className="center-align">
-                      <a
-                        href="index.html"
+                      <NavLink
+                        to="/admin"
                         className="waves-effect btn btnColor borderRadius"
                       >
                         Login
-                      </a>
+                      </NavLink>
                       <br />
                       <br />
                       <span className="clink">

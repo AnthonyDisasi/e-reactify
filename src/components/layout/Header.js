@@ -4,6 +4,10 @@ import LandingPage from "./LandingPage";
 import Signup from "./Signup";
 import { Route, NavLink, Switch } from "react-router-dom";
 import Signin from "./Signin";
+import Admin from "./Admin";
+import Curriculmn from "./Curriculmn";
+import AddTeacher from "./AddTeacher";
+import Subscription from "./Subscription";
 
 class Header extends Component {
   render() {
@@ -84,6 +88,10 @@ class Header extends Component {
           <Route exact path="/" component={LandingPage} />
           <Route exact path="/signin" component={Signin} />
           <Route exact path="/signup" component={Signup} />
+          <Route exact path="/admin" component={Admin} />
+          <Route exact path="/admin/curriculmn" component={Curriculmn} />
+          <Route exact path="/admin/addteacher" component={AddTeacher} />
+          <Route exact path="/admin/subscription" component={Subscription} />
         </Switch>
       </div>
     );
