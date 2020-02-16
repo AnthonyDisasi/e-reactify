@@ -30,8 +30,13 @@
 .materialize-indigo {
   background-color: #3a53af !important;
 }
+
 #info-svg-signup {
   margin-top: 100px;
+}
+
+#info-svg-teacher {
+  margin-top: 80px;
 }
 
 .contents {
@@ -44,6 +49,24 @@
 
 .customColor {
   color: #1a73e9;
+}
+
+.tabs .tab a {
+  color: #478ae2;
+} /*Black color to the text*/
+
+.tabs .tab a:hover {
+  background-color: #d7dbe0;
+  color: #3d87e7;
+} /*Text color on hover*/
+
+.tabs .tab a.active {
+  background-color: #d9dadb;
+  color: #043575;
+}
+
+.tabs .indicator {
+  background-color: #094faa;
 }
 
 .btn:hover {

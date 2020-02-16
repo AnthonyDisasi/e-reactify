@@ -32,7 +32,7 @@ class Header extends Component {
                     <i className="material-icons left grey-text text-darken-2">
                       arrow_drop_down
                     </i>
-                    Connect
+                    Admin
                   </a>
 
                   <ul id="dropdown1" className="dropdown-content">
