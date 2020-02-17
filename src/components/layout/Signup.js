@@ -58,7 +58,7 @@ class Signin extends Component {
                       <div class="center-align">
                         <a
                           href="signin.html"
-                          class="waves-effect btn btnColor borderRadius"
+                          class="waves-effect btn bgc borderRadius"
                         >
                           Register
                         </a>

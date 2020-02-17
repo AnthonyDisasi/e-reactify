@@ -49,7 +49,7 @@ export default function Signup() {
                     <div className="center-align">
                       <NavLink
                         to="/admin/curriculmn"
-                        className="waves-effect btn btnColor borderRadius"
+                        className="waves-effect btn bgc borderRadius"
                       >
                         Login
                       </NavLink>

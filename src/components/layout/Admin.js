@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/style.css";
-import { NavLink, Switch, Route } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Admin() {
   return (

@@ -43,11 +43,15 @@
   margin-top: 80px;
 }
 
-.btnColor {
+a :hover {
+  border-bottom: 1px solid #1a73e9;
+}
+
+.bgc {
   background-color: #1a73e9;
 }
 
-.customColor {
+.fgc {
   color: #1a73e9;
 }
 
@@ -63,6 +67,7 @@
 .tabs .tab a.active {
   background-color: #d9dadb;
   color: #043575;
+  font-weight: bold;
 }
 
 .tabs .indicator {
@@ -153,6 +158,9 @@ h6 {
     display: none;
   }
   #info-svg-signin {
+    display: none;
+  }
+  #info-svg-teacher {
     display: none;
   }
 }

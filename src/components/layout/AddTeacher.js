@@ -7,7 +7,7 @@ class AddTeacher extends Component {
   render() {
     return (
       <div className="contents container">
-        <h4 className="customColor">Add teacher</h4>
+        <h4 className="fgc">Add teacher</h4>
         <br />
         <div class="row">
           <div class="col s12 l12 offset-l3 offset-m3">
@@ -37,22 +37,20 @@ class AddTeacher extends Component {
                   <div className="row">
                     <form action="#">
                       <div class="file-field input-field">
-                        <div class="btn btnColor borderRadius">
+                        <div class="btn bgc borderRadius">
                           <span>File</span>
                           <input type="file" multiple />
                         </div>
                         <div class="file-path-wrapper">
                           <input
-                            class="file-path validate btnColor"
+                            class="file-path validate bgc"
                             type="text"
                             placeholder="Upload one or more files"
                           />
                         </div>
                       </div>
                       <div className="center-align">
-                        <a class="waves-effect btnColor borderRadius btn">
-                          Upload
-                        </a>
+                        <a class="waves-effect bgc borderRadius btn">Upload</a>
                       </div>
                     </form>
                   </div>
@@ -61,7 +59,7 @@ class AddTeacher extends Component {
             </div>
           </div>
           <div id="test2" class="col s12">
-            <div className="card col s12 l12 z-depth-2 card-border">
+            <div className="card col s12 l12 z-depth-1 card-border">
               <div className="card-content">
                 <div className="col s6 l6">
                   <img
@@ -108,7 +106,7 @@ class AddTeacher extends Component {
                         </div>
                       </div>
                       <div className="center-align">
-                        <a class="waves-effect btnColor borderRadius btn">
+                        <a class="waves-effect bgc borderRadius btn">
                           Save teacher
                         </a>
                       </div>
