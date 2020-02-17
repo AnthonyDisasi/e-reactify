@@ -40,6 +40,14 @@ class Header extends Component {
 
                   <ul id="dropdown1" className="dropdown-content">
                     <li>
+                      <NavLink exact className="grey-text text-darken-3" to="/">
+                        <i className="material-icons cyan-text text-darken-3">
+                          accessibility_new
+                        </i>
+                        Home
+                      </NavLink>
+                    </li>
+                    <li>
                       <NavLink
                         exact
                         className="grey-text text-darken-3"
