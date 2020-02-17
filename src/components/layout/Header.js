@@ -10,6 +10,7 @@ import AddTeacher from "./AddTeacher";
 import Subscription from "./Subscription";
 import AddModerator from "./AddModerator";
 import ClassInstructor from "./ClassInstructor";
+import AdminDashboard from "./AdminDashboard";
 
 class Header extends Component {
   render() {
@@ -66,6 +67,18 @@ class Header extends Component {
                       <NavLink
                         exact
                         className="grey-text text-darken-3"
+                        to="/admin/admindashboard"
+                      >
+                        <i className="material-icons yellow-text text-darken-3">
+                          person_add
+                        </i>
+                        Admin dashboard
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        exact
+                        className="grey-text text-darken-3"
                         to="/admin/curriculmn"
                       >
                         <i className="material-icons yellow-text text-darken-3">
@@ -107,7 +120,7 @@ class Header extends Component {
                         <i className="material-icons yellow-text text-darken-3">
                           person_add
                         </i>
-                        Class Instructors
+                        Subject Instructors
                       </NavLink>
                     </li>
                     <li>
@@ -149,6 +162,11 @@ class Header extends Component {
               </NavLink>
             </li>
             <li>
+              <NavLink exact to="/admin/admindashboard">
+                Admin dashboard
+              </NavLink>
+            </li>
+            <li>
               <NavLink exact to="/admin/curriculmn">
                 Curriculmn
               </NavLink>
@@ -165,7 +183,7 @@ class Header extends Component {
             </li>
             <li>
               <NavLink exact to="/admin/classinstructor">
-                Class Instructors
+                Subject Instructors
               </NavLink>
             </li>
             <li>
@@ -180,7 +198,11 @@ class Header extends Component {
           <Route exact path="/" component={LandingPage} />
           <Route exact path="/signin" component={Signin} />
           <Route exact path="/signup" component={Signup} />
-          <Route exact path="/admin" component={Admin} />
+          <Route
+            exact
+            path="/admin/admindashboard"
+            component={AdminDashboard}
+          />
           <Route exact path="/admin/curriculmn" component={Curriculmn} />
           <Route exact path="/admin/addteacher" component={AddTeacher} />
           <Route exact path="/admin/addmoderator" component={AddModerator} />
