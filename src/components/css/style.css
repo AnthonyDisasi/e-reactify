@@ -102,6 +102,17 @@ a :hover {
   background-color: #094faa;
 }
 
+.circleSilver {
+  border: 1px solid #616161;
+  border-radius: 50%;
+  padding: 2rem;
+}
+.circleGolden {
+  border: 1px solid #ffa000;
+  border-radius: 50%;
+  padding: 2rem;
+}
+
 .btn {
   font-weight: 500;
   color: #ebf9ff;
@@ -110,6 +121,11 @@ a :hover {
 
 .btn:hover {
   background-color: #1a73e9;
+}
+
+.subsBtn {
+  width: 80%;
+  border-radius: 15px;
 }
 
 .borderRadius {
