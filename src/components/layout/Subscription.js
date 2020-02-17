@@ -81,7 +81,7 @@ class Subscription extends Component {
         <div className="row">
           <h3 className="fgc">Subscription Plan</h3>
           <div className="col s12 l4">
-            <div className="card">
+            <div className="card hoverable">
               <div className="card-content">
                 <h4 className="grey-text text-darken-2">Silver</h4>
                 <i className="material-icons large circleSilver">cloud</i>
@@ -100,13 +100,13 @@ class Subscription extends Component {
             </div>
           </div>
           <div className="col s12 l4">
-            <div className="card">
+            <div className="card gradientShadow">
               <div className="card-content">
                 <h4 className="amber-text text-darken-2">Golden</h4>
                 <i className="material-icons large circleGolden">cloud</i>
                 <h3 className="center-align">$250</h3>
                 <br />
-                <p>Valid for 3 months</p>
+                <p>Valid for 3 years</p>
                 <hr />
                 <p>1 year backup</p>
                 <hr />
@@ -119,23 +119,21 @@ class Subscription extends Component {
             </div>
           </div>
           <div className="col s12 l4">
-            <div className="card">
+            <div className="card hoverable">
               <div className="card-content">
-                <div className="card-content">
-                  <h4 className="amber-text text-darken-2">Golden</h4>
-                  <i className="material-icons large circleGolden">cloud</i>
-                  <h3 className="center-align">$250</h3>
-                  <br />
-                  <p>Valid for 3 months</p>
-                  <hr />
-                  <p>1 year backup</p>
-                  <hr />
-                  <p>2 year Update</p>
-                  <br />
-                  <a class="waves-effect btn amber darken-2 subsBtn">
-                    Choose Plan
-                  </a>
-                </div>
+                <h4 className="cyan-text text-darken-2">Platinum</h4>
+                <i className="material-icons large circlePlatinum">cloud</i>
+                <h3 className="center-align">$500</h3>
+                <br />
+                <p>Valid for 5 years</p>
+                <hr />
+                <p>Unlimited backup</p>
+                <hr />
+                <p>Time to time Update</p>
+                <br />
+                <a class="waves-effect btn cyan  darken-2 subsBtn">
+                  Choose Plan
+                </a>
               </div>
             </div>
           </div>
