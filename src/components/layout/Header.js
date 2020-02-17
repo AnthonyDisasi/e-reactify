@@ -165,7 +165,7 @@ class Header extends Component {
           <Route exact path="/admin" component={Admin} />
           <Route exact path="/admin/curriculmn" component={Curriculmn} />
           <Route exact path="/admin/addteacher" component={AddTeacher} />
-          <Route exact path="/admin/addmodertor" component={AddModerator} />
+          <Route exact path="/admin/addmoderator" component={AddModerator} />
           <Route exact path="/admin/subscription" component={Subscription} />
         </Switch>
       </div>
