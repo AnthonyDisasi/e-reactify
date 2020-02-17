@@ -32,6 +32,21 @@ export default function AdminDashboard() {
           </div>
         </div>
       </div>
+      <div className="row">
+        <div className="card">
+          <div className="card-content">
+            <div className="row">
+              <form className="col s12 l12">
+                <div className="input-field s12 l12">
+                  <input id="first_name" type="text" className="validate" />
+                  <label htmlFor="first_name">Domain Name</label>
+                </div>
+              </form>
+              <a className="waves-effect bgc borderRadius btn">Save</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

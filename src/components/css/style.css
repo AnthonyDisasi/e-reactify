@@ -105,6 +105,7 @@ a :hover {
 .btn {
   font-weight: 500;
   color: #ebf9ff;
+  text-transform: capitalize;
 }
 
 .btn:hover {
