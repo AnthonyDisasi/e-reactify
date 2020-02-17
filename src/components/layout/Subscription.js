@@ -84,7 +84,7 @@ class Subscription extends Component {
             <div className="card hoverable">
               <div className="card-content">
                 <h4 className="grey-text text-darken-2">Silver</h4>
-                <i className="material-icons large circleSilver">cloud</i>
+                <i className="material-icons large circleSilver">domain</i>
                 <h3 className="center-align">$100</h3>
                 <br />
                 <p>Valid for 6 months</p>
@@ -93,7 +93,7 @@ class Subscription extends Component {
                 <hr />
                 <p>No Update</p>
                 <br />
-                <a class="waves-effect btn grey darken-2 subsBtn">
+                <a className="waves-effect btn grey darken-2 subsBtn">
                   Choose Plan
                 </a>
               </div>
@@ -102,8 +102,8 @@ class Subscription extends Component {
           <div className="col s12 l4">
             <div className="card gradientShadow">
               <div className="card-content">
-                <h4 className="amber-text text-darken-2">Golden</h4>
-                <i className="material-icons large circleGolden">cloud</i>
+                <h4 className="amber-text text-darken-1">Golden</h4>
+                <i className="material-icons large circleGolden">domain</i>
                 <h3 className="center-align">$250</h3>
                 <br />
                 <p>Valid for 3 years</p>
@@ -112,7 +112,7 @@ class Subscription extends Component {
                 <hr />
                 <p>2 year Update</p>
                 <br />
-                <a class="waves-effect btn amber darken-2 subsBtn">
+                <a className="waves-effect btn amber darken-1 subsBtn">
                   Choose Plan
                 </a>
               </div>
@@ -122,7 +122,7 @@ class Subscription extends Component {
             <div className="card hoverable">
               <div className="card-content">
                 <h4 className="cyan-text text-darken-2">Platinum</h4>
-                <i className="material-icons large circlePlatinum">cloud</i>
+                <i className="material-icons large circlePlatinum">domain</i>
                 <h3 className="center-align">$500</h3>
                 <br />
                 <p>Valid for 5 years</p>
@@ -131,7 +131,7 @@ class Subscription extends Component {
                 <hr />
                 <p>Time to time Update</p>
                 <br />
-                <a class="waves-effect btn cyan  darken-2 subsBtn">
+                <a className="waves-effect btn cyan  darken-2 subsBtn">
                   Choose Plan
                 </a>
               </div>
