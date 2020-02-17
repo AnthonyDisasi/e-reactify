@@ -120,7 +120,7 @@ h2 {
   font-family: "Product Sans", monospace;
 }
 
-h6 {
+/* h6 {
   font-family: "Product Sans", monospace;
   position: relative;
   text-transform: uppercase;
@@ -133,7 +133,7 @@ h6 {
   animation: animate 2.5s linear infinite;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
-}
+} */
 
 #dropdown1 {
   width: 220px !important;

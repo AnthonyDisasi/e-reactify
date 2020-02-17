@@ -134,7 +134,9 @@ export default function Curriculmn() {
             </div>
           </div>
           <div className="center-align">
-            <a class="waves-effect bgc borderRadius btn">Submit</a>
+            <a href="#" class="waves-effect bgc borderRadius btn">
+              Submit
+            </a>
           </div>
         </div>
       </div>

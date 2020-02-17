@@ -8,6 +8,7 @@ import Admin from "./Admin";
 import Curriculmn from "./Curriculmn";
 import AddTeacher from "./AddTeacher";
 import Subscription from "./Subscription";
+import AddModerator from "./AddModerator";
 
 class Header extends Component {
   render() {
@@ -88,6 +89,18 @@ class Header extends Component {
                       <NavLink
                         exact
                         className="grey-text text-darken-3"
+                        to="/admin/addmoderator"
+                      >
+                        <i className="material-icons yellow-text text-darken-3">
+                          person_add
+                        </i>
+                        Add Moderator
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        exact
+                        className="grey-text text-darken-3"
                         to="/admin/subscription"
                       >
                         <i className="material-icons yellow-text text-darken-3">
@@ -105,6 +118,7 @@ class Header extends Component {
             <li>
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 className="title"
                 href="https://github.com/e-Luminous/ui"
               >
@@ -112,10 +126,34 @@ class Header extends Component {
               </a>
             </li>
             <li>
-              <NavLink to="/signin">Signin</NavLink>
+              <NavLink exact to="/signin">
+                Signin
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/signup">Signup</NavLink>
+              <NavLink exact to="/signup">
+                Signup
+              </NavLink>
+            </li>
+            <li>
+              <NavLink exact to="/admin/curriculmn">
+                Curriculmn
+              </NavLink>
+            </li>
+            <li>
+              <NavLink exact to="/admin/addteacher">
+                Add Teacher
+              </NavLink>
+            </li>
+            <li>
+              <NavLink exact to="/admin/addmoderator">
+                Add Moderator
+              </NavLink>
+            </li>
+            <li>
+              <NavLink exact to="/admin/subscription">
+                Subscription
+              </NavLink>
             </li>
           </ul>
         </header>
@@ -127,6 +165,7 @@ class Header extends Component {
           <Route exact path="/admin" component={Admin} />
           <Route exact path="/admin/curriculmn" component={Curriculmn} />
           <Route exact path="/admin/addteacher" component={AddTeacher} />
+          <Route exact path="/admin/addmodertor" component={AddModerator} />
           <Route exact path="/admin/subscription" component={Subscription} />
         </Switch>
       </div>
