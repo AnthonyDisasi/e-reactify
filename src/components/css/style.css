@@ -51,6 +51,11 @@ a :hover {
   background-color: #1a73e9;
 }
 
+.nameBlock {
+  border: 1px solid #1a73e9;
+  border-radius: 10px;
+}
+
 .fgc {
   color: #1a73e9;
 }
