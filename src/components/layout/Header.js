@@ -9,6 +9,7 @@ import Curriculmn from "./Curriculmn";
 import AddTeacher from "./AddTeacher";
 import Subscription from "./Subscription";
 import AddModerator from "./AddModerator";
+import ClassInstructor from "./ClassInstructor";
 
 class Header extends Component {
   render() {
@@ -101,6 +102,18 @@ class Header extends Component {
                       <NavLink
                         exact
                         className="grey-text text-darken-3"
+                        to="/admin/classinstructor"
+                      >
+                        <i className="material-icons yellow-text text-darken-3">
+                          person_add
+                        </i>
+                        Class Instructors
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        exact
+                        className="grey-text text-darken-3"
                         to="/admin/subscription"
                       >
                         <i className="material-icons yellow-text text-darken-3">
@@ -151,6 +164,11 @@ class Header extends Component {
               </NavLink>
             </li>
             <li>
+              <NavLink exact to="/admin/classinstructor">
+                Class Instructors
+              </NavLink>
+            </li>
+            <li>
               <NavLink exact to="/admin/subscription">
                 Subscription
               </NavLink>
@@ -166,6 +184,11 @@ class Header extends Component {
           <Route exact path="/admin/curriculmn" component={Curriculmn} />
           <Route exact path="/admin/addteacher" component={AddTeacher} />
           <Route exact path="/admin/addmoderator" component={AddModerator} />
+          <Route
+            exact
+            path="/admin/classinstructor"
+            component={ClassInstructor}
+          />
           <Route exact path="/admin/subscription" component={Subscription} />
         </Switch>
       </div>
