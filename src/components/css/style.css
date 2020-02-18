@@ -122,6 +122,29 @@ a :hover {
   padding: 2rem;
 }
 
+#info-svg-signin {
+  width: 80%;
+}
+
+.section {
+  height: 60vh;
+  box-sizing: border-box;
+  padding: 30px;
+  margin: 0;
+}
+
+.backgroundImage {
+  background-image: url("../img/bg.jpg");
+}
+
+.textShadow {
+  text-shadow: 2px 2px #1a73e9;
+}
+
+.landingPageParagraph {
+  line-height: 2.5;
+}
+
 .btn {
   font-weight: 500;
   color: #ebf9ff;

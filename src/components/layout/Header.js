@@ -19,9 +19,6 @@ class Header extends Component {
         <header>
           <nav className="nav-extended nav-fixed white">
             <div className="nav-wrapper">
-              <a className="brand-logo grey-text text-darken-3" id="page-logo">
-                &nbsp; eLuminous
-              </a>
               <a href="#" className="sidenav-trigger" data-target="mobile-nav">
                 <i className="material-icons grey-text text-darken-4">menu</i>
               </a>
