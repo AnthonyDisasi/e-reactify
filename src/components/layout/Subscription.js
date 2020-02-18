@@ -19,9 +19,13 @@ class Subscription extends Component {
     // console.log("later unit", time);
     const seconds = Math.floor((time / 1000) % 60);
     const minutes = Math.floor((time / 1000 / 60) % 60);
-    const hours = Math.floor(((time / 1000) * 60 * 60) % 24);
+    const hours = Math.floor((time / (1000 * 60 * 60)) % 24);
     const days = Math.floor(time / (1000 * 60 * 60 * 24));
     this.setState({ days, hours, minutes, seconds });
+  };
+
+  leadingToZero = num => {
+    return num < 10 ? `0${num}` : num;
   };
 
   componentWillMount = () => {
@@ -47,7 +51,7 @@ class Subscription extends Component {
             <div className="col s12 l3">
               <div className="card">
                 <div className="card-content">
-                  <h3> {this.state.days}</h3>
+                  <h3> {this.leadingToZero(this.state.days)}</h3>
                   <h6>Days</h6>
                 </div>
               </div>
@@ -55,7 +59,7 @@ class Subscription extends Component {
             <div className="col s12 l3">
               <div className="card">
                 <div className="card-content">
-                  <h3> {this.state.hours} </h3>
+                  <h3> {this.leadingToZero(this.state.hours)} </h3>
                   <h6>Hours</h6>
                 </div>
               </div>
@@ -63,7 +67,7 @@ class Subscription extends Component {
             <div className="col s12 l3">
               <div className="card">
                 <div className="card-content">
-                  <h3> {this.state.minutes} </h3>
+                  <h3> {this.leadingToZero(this.state.minutes)} </h3>
                   <h6>Minutes</h6>
                 </div>
               </div>
@@ -71,7 +75,7 @@ class Subscription extends Component {
             <div className="col s12 l3">
               <div className="card">
                 <div className="card-content">
-                  <h3> {this.state.seconds} </h3>
+                  <h3> {this.leadingToZero(this.state.seconds)} </h3>
                   <h6>Seconds</h6>
                 </div>
               </div>

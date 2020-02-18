@@ -4,7 +4,6 @@ import LandingPage from "./LandingPage";
 import Signup from "./Signup";
 import { Route, NavLink, Switch } from "react-router-dom";
 import Signin from "./Signin";
-import Admin from "./Admin";
 import Curriculmn from "./Curriculmn";
 import AddTeacher from "./AddTeacher";
 import Subscription from "./Subscription";
